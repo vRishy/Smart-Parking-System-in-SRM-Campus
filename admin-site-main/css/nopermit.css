@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Carrois Gothic SC';
+    src: url('https://fonts.cdnfonts.com/css/carrois-gothic-sc');
+}
+
+body {
+    background-color: #BBD1F2;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100px;
+}
+
+.rectangle1 {
+    position: absolute;
+    left: 506px;
+    top: 27px;
+    width: 129px;
+    height: 37px;
+    border-radius: 100px;
+    background-color: #262656;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.rectangle1::before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 125px;
+    height: 33px;
+    border-radius: 98px;
+    border: 2px solid #262656;
+}
+
+.rectangle {
+    position: absolute;
+    left: 0;
+    top: 102px;
+    width: 260px;
+    height: 731px;
+    background-color: #262656;
+}
+
+.red-rectangle {
+    position: absolute;
+    left: 0px;
+    width: 260px;
+    height: 39px;
+    background-color: #FF0303;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.red-rectangle.manage {
+    top: 155px;
+}
+
+.red-rectangle.expired {
+    top: 401px;
+}
+
+.red-rectangle.surveillance {
+    top: 537px;
+}
+
+.text {
+    position: absolute;
+    left: 34px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.text.new-permit {
+    top: 207px;
+}
+
+.text.temporary-permit {
+    top: 246px;
+}
+
+.text.special-permit {
+    top: 284px;
+}
+
+.text.download-statistics {
+    top: 329px;
+}
+
+.text.fine-users {
+    top: 460px;
+}
+
+.text.camera-remote {
+    top: 596px;
+}
+
+.text.camera {
+    top: 634px;
+}
+
+.text.remote-control {
+    top: 673px;
+}
+
+.box {
+    width: 242px;
+    height: 492px;
+    background-color: #7DA9FF;
+    border: 5px solid black;
+    position: absolute;
+    top: 341px;
+    left: calc((100vw - 242px));
+    text-align: center;
+}
+
+.box h1 {
+    font-size: 32px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.aa {
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+    background-color: #7DA9FF;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.aaa {
+    background-color: #FF0303;
+    border-color: #262656;
+}
